@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/ftc-react/static/css/main.ba04915f.css",
+    "main.js": "/ftc-react/static/js/main.622a5ce3.js",
+    "static/media/logo.png": "/ftc-react/static/media/logo.3175f250d3ad598bb7d5.png",
+    "static/media/twitter.png": "/ftc-react/static/media/twitter.49c56328892577703d2d.png",
+    "static/media/tubes.jpg": "/ftc-react/static/media/tubes.d5329a88d3425e254b1c.jpg",
+    "static/media/torch2.png": "/ftc-react/static/media/torch2.5d20882eeb90612df84c.png",
+    "static/media/torch3.png": "/ftc-react/static/media/torch3.ae5e320fea08fe45d0be.png",
+    "static/media/sprinkler.jpg": "/ftc-react/static/media/sprinkler.7e467ab33c2b804df6a6.jpg",
+    "static/media/torch6.png": "/ftc-react/static/media/torch6.e5ac76b97aeabd0d09f7.png",
+    "static/media/youtube.png": "/ftc-react/static/media/youtube.ac9394df4cb67ead9dee.png",
+    "static/media/p1.jpg": "/ftc-react/static/media/p1.3227ea2398136ade0dbe.jpg",
+    "static/media/p4.jpg": "/ftc-react/static/media/p4.f7643c30abd9dcb909fd.jpg",
+    "static/media/torch4.png": "/ftc-react/static/media/torch4.b4ee232c0c1ed0a0fa60.png",
+    "static/media/torch5.png": "/ftc-react/static/media/torch5.b4ee232c0c1ed0a0fa60.png",
+    "static/media/p2.jpg": "/ftc-react/static/media/p2.aee9ee21bb982367798d.jpg",
+    "static/media/p3.jpg": "/ftc-react/static/media/p3.4d7a7d3e8f6c0fa2bf7c.jpg",
+    "index.html": "/ftc-react/index.html",
+    "main.ba04915f.css.map": "/ftc-react/static/css/main.ba04915f.css.map",
+    "main.622a5ce3.js.map": "/ftc-react/static/js/main.622a5ce3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba04915f.css",
+    "static/js/main.622a5ce3.js"
+  ]
+}
