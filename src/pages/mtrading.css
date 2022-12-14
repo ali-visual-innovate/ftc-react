@@ -1,0 +1,32 @@
+.mep-trading{
+  height: 40vh;
+  margin-top: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  width: 100%;
+}
+.mep-trading h1{
+  color: var(--black-color);
+}
+.mep-trading .icon2{
+  background-color: white;
+
+}
+.mep-trading-col{
+  display: flex;
+  flex-direction: column;
+gap: 30px;
+width: 40%;
+}
+.mep-trading-col p{
+  width: 100%;
+  color: var(--black-color);
+}
+.mep-trading-slider img{
+  margin-bottom: 60px;
+  background-color: white;
+}
+/* queries */
+

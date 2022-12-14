@@ -1,0 +1,139 @@
+.mep-contracting{
+  margin-top: 65px;
+  min-height: 100vh;
+  padding: 10px;
+}
+.mep-contracting h1{
+  color: var(--black-color);
+}
+.mep-contracting p{
+  color: var(--black-color);
+
+}
+.mep-contracting-header{
+  display: flex;
+  gap: 3%;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.mep-contracting-header-text{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+}
+.mep-contracting-header h1{
+  width: 30%;
+}
+.mep-contracting-header-text img{
+width: 200px;
+background-color: white;
+}
+.mep-contracting-header-text p{
+  display: block;
+  width: 100%;
+}
+.mep-contracting-header-text-col{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+
+.mep-contracting-showcase-left{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+.mep-contracting-showcase{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.accordions{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 80%;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.accordions h3{
+  color: var(--always-black);
+}
+.accordion{
+  width: 100px;
+}
+.accordion-p p{
+  margin-top: 15px;
+  color: var(--second-color);
+  font-weight: 600;
+  font-size: 16px;
+}
+.mep-contracting-showcase-right-img{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.mep-contracting-showcase-right-img img{
+  margin-bottom: 20px;
+  width: 400px;
+
+
+}
+.mep-contracting-showcase-right-img h2{
+  color:var(--second-color) ;
+}
+
+/* queries */
+@media (max-width:880px) {
+  .mep-contracting-header{
+    align-items: center;
+    flex-direction: column;
+  }
+  .mep-contracting-header-text{
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .mep-contracting-header h1{
+    width: 80%;
+    text-align: center;
+  }
+  .mep-contracting-header-text p{
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .mep-contracting-showcase{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    place-items: center;
+  }
+  .mep-contracting{
+    text-align: center;
+  }
+  .accordions{
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+  }
+  .accordion{
+  }
+  .accordion-p p{
+    text-align: left;
+  }
+}
+@media (max-width:450px) {
+  .accordions{
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+  }
+  .mep-contracting-showcase-right-img{
+    gap: 30px;
+  }
+  .mep-contracting-showcase-right-img img{
+    margin-bottom: 15px;
+    width: 200px;
+  }
+}

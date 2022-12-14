@@ -1,0 +1,170 @@
+.portfolio{
+  text-align: center;
+  background-color: var(--second-background);
+min-height:110vh;
+padding: 50px 0;
+
+}
+.portfolio-content{
+  background-color: var(--second-background);
+
+}
+.portfolio-content h3{
+color: var(--second-color);
+font-weight: 500;
+letter-spacing: 2px;
+}
+.portfolio-content h1{
+  font-size: 38px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color: var(--black-color);
+}
+.all-tabs{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.our-clients-tabs{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.our-projects{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.tab{
+position: relative;
+transition: all 0.4s;
+}
+.tab img{
+  width: 370px;
+  height: 300px;
+}
+.tab-hover-effect{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+  opacity: 0;
+  transition: all 0.4s;
+  z-index: 50;
+
+}
+.tab:hover .tab-hover-effect{
+  opacity: 0.9;
+
+}
+.tab:hover .tab-overlay{
+opacity: 0.9;
+}
+.tab:hover svg{
+border-radius: 50%;
+}
+.tab-hover-effect h3{
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--black-color);
+  border-bottom: 2px solid var(--second-color);
+}
+.tab-hover-effect span{
+  color: var(--second-color);
+}
+.tab-hover-effect svg{
+  padding: 7px;
+  background-color: white;
+  color: var(--always-black);
+  font-size: 40px;
+  font-weight: 600;
+  transition: all 0.4s;
+}
+.tab-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--white-overlay);
+  z-index: 1;
+  transition: all 0.4s;
+  opacity: 0;
+}
+.swiper{
+  overflow: hidden;
+}
+.swiper img{
+  margin-bottom: 50px;
+}
+
+.box {
+}
+
+/* queries */
+
+
+@media (max-width:1350px) {
+  .all-tabs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .our-clients-tabs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .our-projects{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+.tab img{
+  width: 100%;
+  
+}
+}
+@media (max-width:850px) {
+  .all-tabs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .our-clients-tabs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .our-projects{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .tab img{
+    width: 500px;
+    height: 300px;
+  }
+  .swiper img{
+    width: 150px;
+  }
+  .tab{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .tab img{
+    width: 100%;
+    
+  }
+}
+@media (max-width:750px) {
+  .portfolio{
+    margin-top: 10vh;
+  }
+}
+@media (max-width:620px) {
+  .all-tabs{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .our-clients-tabs{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .our-projects{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+}

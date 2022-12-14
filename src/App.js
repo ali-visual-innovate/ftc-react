@@ -1,24 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
+import { Route , Routes } from 'react-router-dom';
+import MTrading from './pages/MTrading';
+import MContracting from './pages/MContracting';
+import Portfolio1 from './pages/Portfolio1';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Navbar/>
+    <Routes>
+<Route path='/' element={ <Home/>}/>
+<Route path='/meptrading' element={ <MTrading/>}/>
+<Route path='/mepcontracting' element={ <MContracting/>}/>
+<Route path='/portfolio1' element={ <Portfolio1/>}/>
+
+portfolio1
+    </Routes>
+    
+      <Footer/>
+    </>
   );
 }
 
