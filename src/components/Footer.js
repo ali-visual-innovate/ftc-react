@@ -42,15 +42,15 @@ const Footer = () => {
             </div>
             <div className="right-footer">
               <h1>Quick Links</h1>
-              <a href=""><FaChevronRight/>About the future of our company</a>
-              <a href=""><FaChevronRight/>Our projects history experience</a>
-              <a href=""><FaChevronRight/>Our services</a>
-              <a href=""><FaChevronRight/>Contact Us</a>
+              <a href="/#"><FaChevronRight/>About the future of our company</a>
+              <a href="/#"><FaChevronRight/>Our projects history experience</a>
+              <a href="/#"><FaChevronRight/>Our services</a>
+              <a href="/#"><FaChevronRight/>Contact Us</a>
 
       <div className="socials">
-          <a href="#"><img src={facebook} alt="" /></a>
-          <a href="#"><img src={twitter} alt="" /></a>
-          <a href="#"><img src={youtube} alt="" /></a>
+          <a href="/#"><img src={facebook} alt="" /></a>
+          <a href="/#"><img src={twitter} alt="" /></a>
+          <a href="/#"><img src={youtube} alt="" /></a>
       </div>
             </div>
           </div>
